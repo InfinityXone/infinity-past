@@ -1,0 +1,9 @@
+name: t3
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - run: echo envjob
