@@ -1,0 +1,9 @@
+
+name: t
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo hi-no-secrets
