@@ -1,0 +1,10 @@
+name: t5
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          D: ${{ github.token }}
+        run: echo ${#D}
