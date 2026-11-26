@@ -31,3 +31,5 @@ This kit gives you:
 - scripts/ — helpers (GitHub App, Vercel hooks, Cloudflared service)
 
 Read each file header for usage.
+
+<!-- docs: 1795664415 -->
