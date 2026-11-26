@@ -1,0 +1,10 @@
+name: t4
+on:
+  workflow_dispatch:
+jobs:
+  a:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          D: ${{ secrets.FOO }}
+        run: echo ${#D}
